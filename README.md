@@ -4,7 +4,7 @@ Testing Rhombus AI as a customer would: an AI-built cleaning pipeline from a clo
 
 **Short version:** the S3 → GCS scheduled journey could not be completed end to end. S3 verification failed with the platform's own generated policy, GCS is not an available destination, and an Active schedule never executed. Using direct upload and manual runs, I found that the AI-built pipeline **silently corrupted the clean baseline** (every amount ×100, every email wiped) while reporting success; that **switching the input file breaks the pipeline permanently**; and that a **chatbot fix re-introduced the corruption it had fixed earlier**. An external validation script caught every data problem; the platform caught none.
 
-> TODO: **Demo video:** <add link>
+> TODO: **Demo video:** <https://youtu.be/w5j23qe85Ic>
 
 ---
 
