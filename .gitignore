@@ -1,0 +1,9 @@
+.env
+*.json.key
+gcp-key*.json
+node_modules/
+playwright/.auth/
+test-results/
+playwright-report/
+__pycache__/
+package-lock.json
