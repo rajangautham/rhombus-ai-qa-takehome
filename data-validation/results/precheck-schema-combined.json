@@ -1,0 +1,45 @@
+{
+  "case": "precheck-schema-combined",
+  "timestamp": "2026-10-05T10:31:24.960020+00:00",
+  "input": "datasets/schema-combined.csv",
+  "output": null,
+  "output_hash": null,
+  "summary": {
+    "PASS": 2,
+    "WARN": 1,
+    "FAIL": 2,
+    "INFO": 0
+  },
+  "checks": [
+    {
+      "group": "input-schema",
+      "check": "expected columns present",
+      "status": "FAIL",
+      "detail": "missing=['amount_usd', 'country']"
+    },
+    {
+      "group": "input-schema",
+      "check": "no unexpected columns",
+      "status": "WARN",
+      "detail": "new=['discount_code', 'order_amount']"
+    },
+    {
+      "group": "input-schema",
+      "check": "quantity is numeric",
+      "status": "FAIL",
+      "detail": "213 non-numeric values (3 planted in baseline)"
+    },
+    {
+      "group": "input-profile",
+      "check": "slash dates look MM/DD (first part <= 12)",
+      "status": "PASS",
+      "detail": "0 of 207 slash dates have first part > 12"
+    },
+    {
+      "group": "input-profile",
+      "check": "amounts look like dollars (not integer cents)",
+      "status": "PASS",
+      "detail": "median=272.41, share of whole numbers=2%"
+    }
+  ]
+}

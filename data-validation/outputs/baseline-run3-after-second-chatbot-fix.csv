@@ -1,0 +1,198 @@
+order_id,customer_name,email,order_date,amount_usd,quantity,country,status
+ORD1002,Ravi Garcia,,2026-08-03,11412.0,10.0,India,shipped
+ORD1180,Diya Kim,,2026-04-26,40457.0,9.0,Singapore,shipped
+ORD1043,Ravi Kim,,2026-02-23,46977.0,3.0,India,shipped
+ORD1014,Chen Smith,,2026-02-26,8066.0,3.0,United Kingdom,shipped
+ORD1060,Diya Kim,,2026-09-17,15810.0,7.0,India,cancelled
+ORD1123,Priya Nguyen,,2026-01-15,48671.0,10.0,United States,pending
+ORD1167,Chen Lee,,2026-08-18,39012.0,9.0,Singapore,shipped
+ORD1179,Ethan Lee,,2026-04-25,42440.0,6.0,Singapore,pending
+ORD1029,George Wong,,2026-08-18,7439.0,3.0,India,cancelled
+ORD1151,Priya Kim,,2026-06-23,40310.0,8.0,Australia,pending
+ORD1100,Diya Garcia,,2026-06-01,11760.0,3.0,India,shipped
+ORD1195,Diya Garcia,,2026-08-12,29649.0,9.0,Australia,pending
+ORD1015,Mateo Singh,,2026-08-28,26691.0,9.0,Australia,shipped
+ORD1042,Hana Brown,,2026-05-26,8308.0,9.0,India,shipped
+ORD1032,Priya Lee,,2026-04-20,43300.0,1.0,United States,cancelled
+ORD1006,Tom Brown,,2026-04-09,35376.0,1.0,United States,delivered
+ORD1128,Nora Brown,,2026-09-17,13725.0,1.0,India,delivered
+ORD1189,George Kim,,2026-04-19,38484.0,5.0,India,delivered
+ORD1066,Hana Lee,,2026-02-07,23043.0,10.0,,cancelled
+ORD1115,Alice Nguyen,,2026-04-28,48115.0,10.0,Singapore,shipped
+ORD1153,Ravi Nguyen,,2026-08-21,,5.0,Singapore,cancelled
+ORD1076,Priya Smith,,2026-06-30,15281.0,7.0,United Kingdom,pending
+ORD1025,Bob Brown,,2026-02-06,25951.0,5.0,United Kingdom,pending
+ORD1178,Bob Kim,,2026-06-09,17906.0,10.0,Singapore,pending
+ORD1071,Priya Lee,,2026-05-13,37713.0,5.0,Singapore,cancelled
+ORD1110,Jia Smith,,2026-04-29,14761.0,5.0,United Kingdom,shipped
+ORD1027,Diya Nguyen,,2026-08-09,18038.0,7.0,United Kingdom,shipped
+ORD1070,Omar Jones,,2026-09-16,21624.0,9.0,United Kingdom,pending
+ORD1036,Bob Wong,,2026-02-11,42641.0,2.0,Singapore,shipped
+ORD1103,Priya Lee,,2026-06-24,9626.0,1.0,India,cancelled
+ORD1130,Lena Brown,,2026-07-13,23040.0,6.0,United States,pending
+ORD1022,Ravi Garcia,,2026-06-09,,6.0,United Kingdom,cancelled
+ORD1089,Alice Singh,,2026-09-08,5724.0,6.0,United Kingdom,pending
+ORD1104,Diya Nguyen,,2026-07-25,24841.0,10.0,Australia,pending
+ORD1038,Tom Nguyen,,2026-08-03,33040.0,10.0,Singapore,delivered
+ORD1058,Mateo Jones,,2026-04-08,13109.0,7.0,Australia,pending
+ORD1147,Tom Brown,,2026-04-23,32013.0,10.0,India,pending
+ORD1082,Priya Smith,,2026-01-27,49995.0,6.0,United States,shipped
+ORD1053,Priya Garcia,,2026-04-13,40921.0,8.0,India,delivered
+ORD1144,Jia Garcia,,2026-07-16,42740.0,2.0,United States,cancelled
+ORD1074,George Nguyen,,2026-08-01,20676.0,9.0,United Kingdom,cancelled
+ORD1050,Hana Nguyen,,2026-07-01,39116.0,7.0,Singapore,pending
+ORD1087,George Nguyen,,2026-05-05,5544.0,5.0,Singapore,shipped
+ORD1114,Omar Nguyen,,2026-01-21,44526.0,6.0,Singapore,delivered
+ORD1119,Nora Lee,,2026-05-28,33298.0,7.0,Singapore,shipped
+ORD1028,Diya Smith,,2026-07-26,36547.0,2.0,United States,pending
+ORD1138,Jia Smith,,2026-01-24,16557.0,1.0,India,delivered
+ORD1152,Hana Singh,,2026-07-07,4970.0,7.0,Australia,delivered
+ORD1083,Bob Smith,,2026-05-07,10368.0,1.0,Singapore,pending
+ORD1062,Mateo Wong,,2026-01-01,15542.0,4.0,United Kingdom,delivered
+ORD1149,Ethan Nguyen,,2026-06-01,16673.0,7.0,United States,pending
+ORD1024,Sofia Garcia,,2026-01-04,4014.0,1.0,United States,shipped
+ORD1033,Alice Singh,,2026-05-16,46363.0,8.0,,cancelled
+ORD1063,Omar Lee,,2026-08-15,33944.0,9.0,United Kingdom,pending
+ORD1158,Sofia Patel,,2026-08-01,32919.0,8.0,Singapore,cancelled
+ORD1173,Diya Wong,,2026-04-21,21788.0,4.0,United Kingdom,delivered
+ORD1001,Sofia Singh,,2026-01-17,1975.0,4.0,United States,shipped
+ORD1097,Sofia Brown,,2026-08-31,27897.0,6.0,United Kingdom,delivered
+ORD1181,Tom Kim,,2026-01-15,9431.0,5.0,India,delivered
+ORD1194,Fatima Jones,,2026-08-24,41685.0,6.0,Australia,cancelled
+ORD1188,Quinn Kim,,2026-01-24,11416.0,10.0,Australia,shipped
+ORD1040,Omar Brown,,2026-02-07,961.0,10.0,Singapore,shipped
+ORD1154,Lena Nguyen,,2026-04-30,23838.0,10.0,Singapore,delivered
+ORD1067,Priya Singh,,2026-05-05,7805.0,1.0,Australia,cancelled
+ORD1183,Alice Nguyen,,2026-04-21,19122.0,8.0,India,pending
+ORD1096,Omar Smith,,2026-02-17,15065.0,7.0,United States,delivered
+ORD1187,Quinn Nguyen,,2026-06-26,21781.0,5.0,Singapore,cancelled
+ORD1198,Hana Nguyen,,2026-03-16,13170.0,3.0,Singapore,pending
+ORD1124,Jia Wong,,2026-01-08,27836.0,2.0,United States,shipped
+ORD1019,Tom Brown,,2026-09-08,1464.0,6.0,India,pending
+ORD1116,Ivan Jones,,2026-01-21,38274.0,3.0,United Kingdom,cancelled
+ORD1072,Hana Kim,,2026-08-14,4335.0,5.0,United States,delivered
+ORD1049,Bob Kim,,2026-07-06,45000.0,1.0,India,pending
+ORD1155,Tom Garcia,,2026-02-02,31952.0,8.0,India,cancelled
+ORD1030,Hana Nguyen,,2026-08-15,40497.0,9.0,Australia,shipped
+ORD1008,Lena Brown,,2026-04-18,33674.0,2.0,Singapore,pending
+ORD1163,Sofia Garcia,,2026-04-30,16764.0,3.0,Singapore,shipped
+ORD1185,Bob Patel,,2026-03-22,37845.0,1.0,Australia,delivered
+ORD1107,Jia Jones,,2026-08-08,,10.0,Australia,shipped
+ORD1137,Chen Singh,,2026-02-20,38138.0,2.0,United Kingdom,pending
+ORD1018,Quinn Jones,,2026-04-12,8066.0,3.0,Singapore,shipped
+ORD1003,Fatima Singh,,2026-06-24,14255.0,4.0,,shipped
+ORD1132,Priya Singh,,2026-07-17,49426.0,3.0,United Kingdom,shipped
+ORD1135,Ivan Brown,,2026-07-23,32667.0,6.0,Singapore,cancelled
+ORD1065,Hana Kim,,2026-04-26,40425.0,3.0,Australia,shipped
+ORD1165,Ethan Smith,,2026-07-03,39604.0,4.0,Singapore,delivered
+ORD1039,Ivan Garcia,,2026-06-10,12315.0,7.0,United States,pending
+ORD1136,Kofi Lee,,2026-01-19,31064.0,4.0,India,pending
+ORD1176,Chen Nguyen,,2026-08-10,5280.0,6.0,United States,shipped
+ORD1177,Sofia Wong,,2026-06-18,33666.0,7.0,India,cancelled
+ORD1007,Chen Garcia,,2026-02-21,,8.0,India,pending
+ORD1081,Kofi Singh,,2026-05-23,37724.0,7.0,India,shipped
+ORD1035,Kofi Smith,,2026-01-26,29417.0,9.0,Singapore,pending
+ORD1126,Nora Lee,,2026-08-30,12565.0,9.0,United States,cancelled
+ORD1078,Mateo Patel,,2026-08-28,46017.0,10.0,Singapore,shipped
+ORD1045,George Kim,,2026-09-16,24682.0,1.0,Australia,cancelled
+ORD1093,Priya Brown,,2026-04-04,24634.0,6.0,India,delivered
+ORD1193,Sofia Singh,,2026-08-02,14831.0,7.0,Australia,delivered
+ORD1113,Omar Nguyen,,2026-08-28,34590.0,7.0,India,cancelled
+ORD1169,Omar Smith,,2026-02-01,49930.0,7.0,United Kingdom,shipped
+ORD1056,Alice Nguyen,,2026-05-14,9339.0,5.0,Australia,shipped
+ORD1182,Alice Patel,,2026-03-15,28533.0,7.0,Australia,pending
+ORD1054,Hana Garcia,,2026-01-13,33172.0,7.0,India,delivered
+ORD1145,Sofia Brown,,2026-06-01,49638.0,5.0,Australia,cancelled
+ORD1125,Omar Nguyen,,2026-03-20,25170.0,5.0,,delivered
+ORD1057,Tom Singh,,2026-06-26,36563.0,6.0,United Kingdom,shipped
+ORD1150,Ethan Wong,,2026-07-07,26777.0,5.0,United States,delivered
+ORD1143,Lena Jones,,2026-06-03,32127.0,7.0,India,cancelled
+ORD1191,Ravi Garcia,,2026-09-14,28157.0,6.0,Australia,cancelled
+ORD1156,Diya Patel,,2026-01-24,47340.0,5.0,United Kingdom,shipped
+ORD1013,Sofia Singh,,2026-07-24,18419.0,3.0,Singapore,cancelled
+ORD1041,Chen Wong,,2026-04-20,25541.0,3.0,India,shipped
+ORD1037,Hana Singh,,2026-03-03,47109.0,10.0,United States,shipped
+ORD1142,Alice Lee,,2026-05-28,34042.0,3.0,Australia,cancelled
+ORD1023,Diya Garcia,,2026-04-26,3669.0,1.0,Singapore,pending
+ORD1105,Ethan Jones,,2026-06-05,4716.0,4.0,,cancelled
+ORD1077,Priya Garcia,,2026-05-20,22074.0,1.0,United Kingdom,delivered
+ORD1055,Chen Kim,,2026-06-29,32253.0,7.0,Singapore,delivered
+ORD1020,Bob Garcia,,2026-02-10,4740.0,8.0,Australia,pending
+ORD1108,George Garcia,,2026-05-16,33191.0,3.0,United States,pending
+ORD1068,Hana Patel,,2026-09-23,23495.0,9.0,United States,shipped
+ORD1140,Fatima Patel,,2026-02-10,30670.0,7.0,Singapore,pending
+ORD1133,Ethan Wong,,2026-06-19,43550.0,8.0,Australia,cancelled
+ORD1127,George Jones,,2026-09-18,37441.0,3.0,Australia,delivered
+ORD1098,Lena Lee,,2026-05-19,15678.0,4.0,Australia,pending
+ORD1112,Ivan Patel,,2026-02-06,3452.0,5.0,Singapore,delivered
+ORD1102,Ethan Lee,,2026-02-22,43700.0,10.0,India,cancelled
+ORD1111,Hana Kim,,2026-04-12,21544.0,9.0,United States,pending
+ORD1094,Ivan Jones,,2026-05-22,28012.0,9.0,United States,shipped
+ORD1031,Ravi Smith,,2026-02-17,46355.0,4.0,United States,cancelled
+ORD1069,Omar Patel,,2026-08-26,33545.0,9.0,Singapore,delivered
+ORD1084,Hana Patel,,2026-08-31,33638.0,10.0,United States,cancelled
+ORD1012,Ethan Kim,,2026-03-13,12708.0,9.0,Singapore,delivered
+ORD1184,Lena Kim,,2026-06-16,38953.0,10.0,Singapore,shipped
+ORD1073,Kofi Brown,,2026-02-11,7350.0,4.0,United Kingdom,pending
+ORD1048,Ravi Smith,,2026-07-09,29334.0,3.0,United Kingdom,pending
+ORD1166,Alice Patel,,2026-05-16,3094.0,7.0,Singapore,shipped
+ORD1186,Omar Singh,,2026-09-06,30550.0,7.0,India,pending
+ORD1121,Ravi Lee,,2026-07-31,3183.0,9.0,India,cancelled
+ORD1172,Mateo Jones,,2026-05-31,,10.0,United Kingdom,shipped
+ORD1101,Ravi Patel,,2026-05-21,2753.0,1.0,Singapore,delivered
+ORD1131,Sofia Singh,,2026-04-30,42873.0,7.0,Australia,delivered
+ORD1079,Mateo Jones,,2026-01-14,4655.0,7.0,United States,cancelled
+ORD1080,Fatima Smith,,2026-05-14,19266.0,4.0,United Kingdom,delivered
+ORD1010,Kofi Smith,,2026-04-28,41179.0,6.0,United Kingdom,delivered
+ORD1159,Ivan Smith,,2026-07-09,11255.0,8.0,United States,delivered
+ORD1174,Omar Singh,,2026-08-01,36616.0,6.0,United Kingdom,delivered
+ORD1051,Hana Patel,,2026-04-01,44130.0,1.0,United States,delivered
+ORD1075,Bob Garcia,,2026-08-04,19779.0,10.0,Australia,cancelled
+ORD1009,Ravi Garcia,,2026-03-25,23382.0,5.0,Singapore,pending
+ORD1117,Ivan Patel,,2026-08-12,31922.0,8.0,Australia,cancelled
+ORD1016,Ravi Kim,,2026-06-24,6022.0,7.0,United States,cancelled
+ORD1175,Ivan Brown,,2026-03-20,34498.0,8.0,Australia,shipped
+ORD1046,Ivan Smith,,2026-01-02,17011.0,3.0,India,pending
+ORD1161,Omar Nguyen,,2026-04-19,32264.0,10.0,Australia,shipped
+ORD1122,Omar Smith,,2026-04-15,13719.0,3.0,India,cancelled
+ORD1118,Lena Singh,,2026-06-20,16392.0,2.0,United States,delivered
+ORD1044,Diya Wong,,2026-03-21,13981.0,10.0,United States,delivered
+ORD1164,Ivan Patel,,2026-03-08,27241.0,3.0,Australia,shipped
+ORD1086,Diya Jones,,2026-01-14,46480.0,10.0,United Kingdom,cancelled
+ORD1197,Quinn Wong,,2026-04-10,45343.0,6.0,India,pending
+ORD1190,Diya Smith,,2026-09-12,37477.0,3.0,United States,cancelled
+ORD1034,Ravi Lee,,2026-03-21,9900.0,4.0,Australia,shipped
+ORD1085,Ivan Brown,,2026-03-27,30492.0,2.0,United States,delivered
+ORD1148,Diya Smith,,2026-06-08,39536.0,1.0,Singapore,delivered
+ORD1026,Ravi Patel,,2026-08-31,12528.0,8.0,United Kingdom,pending
+ORD1160,Diya Brown,,2026-07-03,3497.0,5.0,United States,shipped
+ORD1168,Omar Wong,,2026-04-24,47298.0,1.0,Singapore,delivered
+ORD1088,Sofia Smith,,2026-06-27,26871.0,6.0,Australia,delivered
+ORD1199,Chen Patel,,2026-09-10,23466.0,10.0,Singapore,cancelled
+ORD1091,Omar Singh,,2026-05-18,16454.0,4.0,Australia,delivered
+ORD1004,Chen Singh,,2026-02-19,18269.0,6.0,Singapore,delivered
+ORD1064,Chen Kim,,2026-09-21,33361.0,10.0,India,shipped
+ORD1095,Hana Singh,,2026-09-08,27981.0,4.0,United Kingdom,cancelled
+ORD1192,Bob Singh,,2026-01-10,23258.0,2.0,India,cancelled
+ORD1162,Kofi Garcia,,2026-03-06,39455.0,4.0,Australia,pending
+ORD1011,Chen Garcia,,2026-06-11,11025.0,8.0,United Kingdom,cancelled
+ORD1120,Omar Nguyen,,2026-06-11,12994.0,2.0,United Kingdom,shipped
+ORD1099,Kofi Nguyen,,2026-04-05,9981.0,8.0,India,delivered
+ORD1141,Priya Jones,,2026-03-15,11993.0,5.0,United Kingdom,delivered
+ORD1196,Jia Brown,,2026-04-24,16987.0,3.0,Australia,shipped
+ORD1129,Sofia Jones,,2026-09-08,43330.0,8.0,Singapore,cancelled
+ORD1139,Lena Singh,,2026-03-16,12588.0,7.0,Singapore,pending
+ORD1017,Alice Kim,,2026-09-14,38217.0,9.0,Australia,delivered
+ORD1092,Omar Garcia,,2026-08-26,28708.0,7.0,India,shipped
+ORD1134,Alice Patel,,2026-07-29,43611.0,3.0,Australia,cancelled
+ORD1021,Ethan Lee,,2026-03-26,13620.0,10.0,United Kingdom,pending
+ORD1171,Chen Patel,,2026-05-21,31404.0,10.0,Singapore,delivered
+ORD1170,Priya Lee,,2026-02-07,45014.0,6.0,Singapore,pending
+ORD1047,Omar Wong,,2026-08-07,28265.0,2.0,Australia,pending
+ORD1106,Tom Jones,,2026-04-26,38897.0,7.0,United Kingdom,cancelled
+ORD1146,Ivan Smith,,2026-01-26,45576.0,8.0,India,pending
+ORD1061,Jia Wong,,2026-03-07,,7.0,United States,delivered
+ORD1090,Nora Patel,,2026-09-25,48291.0,5.0,Singapore,cancelled
+ORD1157,Diya Garcia,,2026-03-11,19738.0,6.0,Singapore,cancelled
+ORD1000,Diya Smith,,2026-05-21,12622.0,3.0,Australia,shipped
+ORD1109,Ravi Nguyen,,2026-03-22,632.0,8.0,Singapore,cancelled

@@ -1,0 +1,14 @@
+{
+  "name": "rhombus-ai-qa-takehome",
+  "private": true,
+  "scripts": {
+    "auth": "playwright codegen --save-storage=playwright/.auth/user.json https://rhombusai.com",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "dotenv": "^16.4.5"
+  }
+}

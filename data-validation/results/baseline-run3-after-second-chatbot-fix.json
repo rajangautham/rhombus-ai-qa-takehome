@@ -1,0 +1,208 @@
+{
+  "case": "baseline-run3-after-second-chatbot-fix",
+  "timestamp": "2026-10-05T21:34:17.117222+00:00",
+  "input": "datasets/baseline.csv",
+  "output": "data-validation/outputs/baseline-run3-after-second-chatbot-fix.csv",
+  "output_hash": "ae1eb6465c55a716",
+  "summary": {
+    "PASS": 22,
+    "WARN": 3,
+    "FAIL": 2,
+    "INFO": 3
+  },
+  "checks": [
+    {
+      "group": "input-profile",
+      "check": "slash dates look MM/DD (first part <= 12)",
+      "status": "PASS",
+      "detail": "0 of 207 slash dates have first part > 12"
+    },
+    {
+      "group": "input-profile",
+      "check": "amounts look like dollars (not integer cents)",
+      "status": "PASS",
+      "detail": "median=272.41, share of whole numbers=2%"
+    },
+    {
+      "group": "schema",
+      "check": "output has baseline columns",
+      "status": "PASS",
+      "detail": "missing=[] extra=[]"
+    },
+    {
+      "group": "schema",
+      "check": "input columns all reach output",
+      "status": "PASS",
+      "detail": "dropped_by_pipeline=[]"
+    },
+    {
+      "group": "schema",
+      "check": "column order",
+      "status": "INFO",
+      "detail": [
+        "order_id",
+        "customer_name",
+        "email",
+        "order_date",
+        "amount_usd",
+        "quantity",
+        "country",
+        "status"
+      ]
+    },
+    {
+      "group": "rows",
+      "check": "counts",
+      "status": "INFO",
+      "detail": {
+        "input": 213,
+        "output": 197,
+        "removed": 16
+      }
+    },
+    {
+      "group": "rows",
+      "check": "output not larger than input",
+      "status": "PASS",
+      "detail": "197 <= 213"
+    },
+    {
+      "group": "rows",
+      "check": "output not empty",
+      "status": "PASS",
+      "detail": "197 rows"
+    },
+    {
+      "group": "rows",
+      "check": "row count in plausible cleaned range",
+      "status": "PASS",
+      "detail": "expected 170..203 (exact-dedup=203, id-dedup=200, lower bound allows dropping invalid rows)"
+    },
+    {
+      "group": "cleaning",
+      "check": "no exact duplicate rows",
+      "status": "PASS",
+      "detail": "0 duplicates"
+    },
+    {
+      "group": "cleaning",
+      "check": "order_id unique",
+      "status": "PASS",
+      "detail": "0 repeated ids (3 planted conflicting-content dupes)"
+    },
+    {
+      "group": "cleaning",
+      "check": "no blanks in order_id",
+      "status": "PASS",
+      "detail": "0 blank"
+    },
+    {
+      "group": "cleaning",
+      "check": "no blanks in email",
+      "status": "WARN",
+      "detail": "197 blank"
+    },
+    {
+      "group": "cleaning",
+      "check": "no blanks in amount_usd",
+      "status": "WARN",
+      "detail": "6 blank"
+    },
+    {
+      "group": "cleaning",
+      "check": "no blanks in country",
+      "status": "WARN",
+      "detail": "5 blank"
+    },
+    {
+      "group": "cleaning",
+      "check": "emails valid",
+      "status": "PASS",
+      "detail": "0 invalid: []"
+    },
+    {
+      "group": "cleaning",
+      "check": "country standardised",
+      "status": "PASS",
+      "detail": "non-canonical values: []"
+    },
+    {
+      "group": "cleaning",
+      "check": "status standardised",
+      "status": "PASS",
+      "detail": "non-canonical: [], distinct=['cancelled', 'delivered', 'pending', 'shipped']"
+    },
+    {
+      "group": "cleaning",
+      "check": "names trimmed",
+      "status": "PASS",
+      "detail": "0 with leading/trailing spaces"
+    },
+    {
+      "group": "cleaning",
+      "check": "quantity numeric",
+      "status": "PASS",
+      "detail": "0 non-numeric"
+    },
+    {
+      "group": "cleaning",
+      "check": "quantity non-negative",
+      "status": "PASS",
+      "detail": "0 negative"
+    },
+    {
+      "group": "cleaning",
+      "check": "amount numeric (no $)",
+      "status": "PASS",
+      "detail": "0 still contain '$'"
+    },
+    {
+      "group": "cleaning",
+      "check": "dates parseable",
+      "status": "PASS",
+      "detail": "0 unparseable"
+    },
+    {
+      "group": "cleaning",
+      "check": "single date format",
+      "status": "PASS",
+      "detail": "formats seen: {'9999-99-99': 197}"
+    },
+    {
+      "group": "semantic",
+      "check": "output order_ids match source ids",
+      "status": "FAIL",
+      "detail": "0 of 197 output ids found in the source (ids altered or invented if low)"
+    },
+    {
+      "group": "semantic",
+      "check": "row-level comparison",
+      "status": "INFO",
+      "detail": "skipped: no ids joinable, e.g. output ids ['ORD1002', 'ORD1180', 'ORD1043']"
+    },
+    {
+      "group": "semantic",
+      "check": "amount distribution stable vs baseline",
+      "status": "FAIL",
+      "detail": "median 26871.00 vs baseline 268.71 (x100.0); ~x100 suggests cents"
+    },
+    {
+      "group": "semantic",
+      "check": "date parse rate stable vs baseline",
+      "status": "PASS",
+      "detail": "unparseable 0% vs baseline 0%"
+    },
+    {
+      "group": "semantic",
+      "check": "day-of-month not capped at 12",
+      "status": "PASS",
+      "detail": "max day=31 (all <=12 implies day/month swap)"
+    },
+    {
+      "group": "semantic",
+      "check": "month distribution stable vs baseline",
+      "status": "PASS",
+      "detail": "mean month 5.0 vs 5.1"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "case": "precheck-baseline",
+  "timestamp": "2026-10-05T21:28:23.383817+00:00",
+  "input": "datasets/baseline.csv",
+  "output": null,
+  "output_hash": null,
+  "summary": {
+    "PASS": 5,
+    "WARN": 0,
+    "FAIL": 0,
+    "INFO": 0
+  },
+  "checks": [
+    {
+      "group": "input-schema",
+      "check": "expected columns present",
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "group": "input-schema",
+      "check": "no unexpected columns",
+      "status": "PASS",
+      "detail": "new=[]"
+    },
+    {
+      "group": "input-schema",
+      "check": "quantity is numeric",
+      "status": "PASS",
+      "detail": "3 non-numeric values (3 planted in baseline)"
+    },
+    {
+      "group": "input-profile",
+      "check": "slash dates look MM/DD (first part <= 12)",
+      "status": "PASS",
+      "detail": "0 of 207 slash dates have first part > 12"
+    },
+    {
+      "group": "input-profile",
+      "check": "amounts look like dollars (not integer cents)",
+      "status": "PASS",
+      "detail": "median=272.41, share of whole numbers=2%"
+    }
+  ]
+}
