@@ -1,3 +1,0 @@
-pandas>=2.2
-boto3
-google-cloud-storage
